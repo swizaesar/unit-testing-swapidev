@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be render data pokemon 1`] = `
+<PokemonList
+  pokemon={
+    Object {
+      "name": "Pokemon",
+      "url": "http://localhost:3001/pokemon",
+    }
+  }
+/>
+`;
