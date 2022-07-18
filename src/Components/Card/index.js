@@ -1,6 +1,5 @@
 import React from "react";
 import { CardBody } from "reactstrap";
-import PokeBall from "../../Assets/Icon/logo.png";
 import { pokemonImage } from "../../Utils/helpers";
 import { PokemonCardStyle } from "./index.style";
 

@@ -10,7 +10,7 @@ const Home = () => {
   const [pokemon, setPokemon] = React.useState(false);
   React.useEffect(() => {
     fetchApi.pokemonList({ dispatch });
-  }, []);
+  }, [dispatch]);
   React.useEffect(() => {
     if (state?.pokemon?.pokemonList?.isSuccess) {
       setPokemon(state.pokemon.pokemonList.data.results);

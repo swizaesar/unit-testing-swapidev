@@ -28,7 +28,7 @@ const Style = styled.header`
         align-items: center;
         justify-content: center;
         img {
-          width: 28px;
+          width: 50px;
           margin-right: 6px;
         }
       }
