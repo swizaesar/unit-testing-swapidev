@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import { color } from "../../Utils/variable";
 
-const Style = styled.header`
-  background: linear-gradient(135deg, #50a1d8 0, #297eb9 100%);
+export const Style = styled.header`
+  background: ${color.primary};
   width: 80%;
   margin: auto;
   border-radius: 0px 0px 15px 15px;
@@ -31,6 +32,13 @@ const Style = styled.header`
           width: 50px;
           margin-right: 6px;
         }
+        &-name {
+          text-transform: capitalize;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
       }
       &__images {
         display: block;
@@ -38,10 +46,36 @@ const Style = styled.header`
         margin-bottom: 10px;
         .pokemon {
           width: 150px;
+          &-type {
+            width: 100px;
+          }
         }
       }
     }
   }
 `;
-
-export default Style;
+export const HeaderDetailStyle = styled.header`
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  .header {
+    &-content {
+      &__image {
+        border-radius: 50%;
+        margin-right: 15px;
+        background-color: #fff;
+        margin-bottom: 15px;
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+      &__name {
+        font-size: 22px;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+    }
+  }
+`;

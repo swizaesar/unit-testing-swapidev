@@ -1,5 +1,5 @@
 import React from "react";
-import Style from "./index.style";
+import { Style } from "./index.style";
 import Wave from "../../Assets/Images/simple-wave-lines-background-35.png";
 import pokemon from "../../Assets/Images/pokemon.png";
 import pokeball from "../../Assets/Icon/logo.png";

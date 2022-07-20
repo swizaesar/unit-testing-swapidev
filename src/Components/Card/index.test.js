@@ -32,6 +32,6 @@ test("should be render data pokemon", async () => {
     container
   );
   let url = pokemonImage("http://localhost:3001/pokemon/3");
-  expect(screen.getByRole("pokemonPhoto")).toHaveAttribute("src", url);
+  expect(screen.getByRole("img")).toHaveAttribute("src", url);
   expect(screen.getByRole("pokemonName")).toHaveTextContent("Pokemon");
 });
